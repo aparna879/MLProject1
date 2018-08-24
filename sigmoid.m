@@ -1,4 +1,9 @@
-function p=sigmoid(z)
+function g = sigmoid(b)
 
+%J = sigmoid(b)
 
-p=(1./(1+exp(-z)));
+%g = zeros(size(b));
+
+g = 1./(1 + exp(-b));
+
+end
